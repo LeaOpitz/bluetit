@@ -16,7 +16,7 @@ penguins |>
   filter(species == "Chinstrap") |> 
   ggplot(aes(x = sex, y = body_mass_g, fill = sex)) +
   geom_boxplot() +
-  labs(x = "Sex", y = "Body mass g", title = "Chinstrap") +
+  labs(x = "Sex", y = "Body mass g", title = "Chinstrap bodymass") +
   theme_bw() +
   scale_fill_manual(values = c("#046C9A", "#ABDDDE"))
 
