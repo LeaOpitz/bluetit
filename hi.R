@@ -18,4 +18,5 @@ penguins |>
   ggplot(aes(x = sex, y = body_mass_g, fill = sex)) +
   geom_boxplot() +
   labs(x = "Sex", y = "Body mass g", title = "Chinstrap") +
-  theme_classic()
+  theme_bw() +
+  scale_fill_manual(values = c("#046C9A", "#ABDDDE")) 
