@@ -21,4 +21,4 @@ penguins |>
   scale_fill_manual(values = c("#046C9A", "#ABDDDE"))
 
 #adding correlation test 
-cor.test(penguins$body_mass, penguins$bill_len, method = "pearson")
+cor.test(penguins$body_mass_g, penguins$bill_length_mm, method = "pearson")
